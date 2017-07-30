@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="app.js" type="text/javascript"></script>
+        <style>
+            #canvas {
+                border: 1px solid black;
+                position:absolute;
+                top:50%;
+                left:50%;
+                transform:translate(-50%,-50%);
+                background-color: white;
+            }
+
+            #title {
+                position:absolute;
+                left:50%;
+                transform:translate(-50%, -20%);
+                font-size: 7.5em;
+                font-family: Courier New, Courier, monospace;
+            }
+
+            body {
+                background-color: blanchedalmond;
+            }
+            #round {
+                position:absolute;
+                left:50%;
+                transform:translate(-50%, -25%);
+                font-size: 1.5em;
+                font-family: Courier New, Courier, monospace;
+
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="title">Ludum Dare 39</h1>
+        <div id="round">Round ?</div>
+        <canvas id="canvas" width="850" height="600"></canvas>
+    </body>
+</html>
